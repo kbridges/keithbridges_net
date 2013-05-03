@@ -5,9 +5,18 @@
 /* ==========================================================================
    Layout
    ========================================================================== */
+html {
+	background-color: #000000;
+}
+
 div#leftnav {
-	width: 150px;
+	width: 225px;
 	float: left;
+}
+
+div#nav_menu  li{
+	width: 175px;
+	margin-bottom: 12px;
 }
 
 div#content {
@@ -23,9 +32,6 @@ div#masthead {
 	clear: both;	
 }
 
-html {
-	background-color: #000000;
-}
 
 
 /* ==========================================================================
@@ -35,13 +41,48 @@ body {
 	font-family:Verdana, Geneva, sans-serif;	
 }
 
-h1 {
-	font-family: "poetica-std",sans-serif;
+h1, h2, h3, h4, h5{
+	font-family: "myriad-pro",sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 }
+
+h4, h5{
+	font-weight: 600;
+	}
+
+h1{
+	font-size: 1.6em;
+}
+h2{
+	font-size: 1.2em;
+}
+h3{
+	font-size: 1.0em;
+}
+h4{
+	font-size: 0.8em;
+}
+h5{
+	font-size: 0.6em;
+}
+
+p{
+	font-family: "kepler-std-display",serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.0em;
+	letter-spacing: 25%;
+}
+
+div#nav_menu  li{
+	list-style:none;
+}
+
 div#nav_menu a {
-		
+	font-family: "myriad-pro",sans-serif;
+	font-style: normal;
+	font-weight: 300;
 }
 
 /* ==========================================================================
