@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^blinking\-at\-shadows\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.blinking\-at\-shadows\.com$
+RewriteRule ^/?$ "http\:\/\/keithbridges\.net\/blog\/" [R=301,L]
+
